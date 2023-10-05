@@ -1,6 +1,6 @@
 <h1 align="center">Recipe-Recommendation</h1>
 
-<h2>TEchnologies Used 🛠</h2>
+<h2>Technologies Used 🛠</h2>
 
 - HTML5
 - CSS3
