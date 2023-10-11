@@ -51,11 +51,12 @@ body{
 .meal-search-box{
     margin: 1.2rem 0;
     display: flex;
+    gap: 10px;
     align-items: stretch;
 }
 .search-control,
 .search-btn{
-    width: 100%;
+    width: 20%;
 }
 .search-control{
     padding: 0 1rem;
@@ -64,21 +65,20 @@ body{
     outline: 0;
     border: 1px solid var(--tenne-tawny);
     color: var(--tenne-tawny);
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+    border-radius: 2rem;
+    width: 60%;
 }
 .search-control::placeholder{
     color: var(--tenne-tawny);
 }
 .search-btn{
-    width: 55px;
+    
     height: 55px;
     font-size: 1.8rem;
     background: var(--tenne-tawny);
     color: #fff;
     border: none;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-radius: 2rem;
     transition: all 0.4s linear;
     -webkit-transition: all 0.4s linear;
     -moz-transition: all 0.4s linear;
